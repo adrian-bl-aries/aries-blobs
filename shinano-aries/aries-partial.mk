@@ -13,6 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/mba.b00:system/etc/firmware/mba.b00 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/mba.mdt:system/etc/firmware/mba.mdt \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
