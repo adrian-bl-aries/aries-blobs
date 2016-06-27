@@ -13,6 +13,27 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.b11:system/etc/firmware/adsp.b11 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.b12:system/etc/firmware/adsp.b12 \
     vendor/sony/shinano-aries/proprietary/system/etc/firmware/adsp.mdt:system/etc/firmware/adsp.mdt \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b00:system/etc/firmware/modem.b00 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b01:system/etc/firmware/modem.b01 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b02:system/etc/firmware/modem.b02 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b03:system/etc/firmware/modem.b03 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b06:system/etc/firmware/modem.b06 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b08:system/etc/firmware/modem.b08 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b09:system/etc/firmware/modem.b09 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b11:system/etc/firmware/modem.b11 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b12:system/etc/firmware/modem.b12 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b13:system/etc/firmware/modem.b13 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b14:system/etc/firmware/modem.b14 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b15:system/etc/firmware/modem.b15 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b16:system/etc/firmware/modem.b16 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b17:system/etc/firmware/modem.b17 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b18:system/etc/firmware/modem.b18 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b19:system/etc/firmware/modem.b19 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b22:system/etc/firmware/modem.b22 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b23:system/etc/firmware/modem.b23 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b24:system/etc/firmware/modem.b24 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.b25:system/etc/firmware/modem.b25 \
+    vendor/sony/shinano-aries/proprietary/system/etc/firmware/modem.mdt:system/etc/firmware/modem.mdt \
     vendor/sony/shinano-aries/proprietary/system/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/sony/shinano-aries/proprietary/system/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
 
