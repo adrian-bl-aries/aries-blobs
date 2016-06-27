@@ -1,61 +1,48 @@
-# Copyright (C) 2012 Sony Mobile Communication
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+PRODUCT_COPY_FILES += \
+    vendor/sony/shinano-common/proprietary/etc/firmware/a330_pfp.fw:etc/firmware/a330_pfp.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/a330_pm4.fw:etc/firmware/a330_pm4.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b00:etc/firmware/cmnlib.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b01:etc/firmware/cmnlib.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b02:etc/firmware/cmnlib.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.b03:etc/firmware/cmnlib.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cmnlib.mdt:etc/firmware/cmnlib.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b00:etc/firmware/tzhdcp.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b01:etc/firmware/tzhdcp.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b02:etc/firmware/tzhdcp.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.b03:etc/firmware/tzhdcp.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzhdcp.mdt:etc/firmware/tzhdcp.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b00:etc/firmware/tzlibasb.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b01:etc/firmware/tzlibasb.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b02:etc/firmware/tzlibasb.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.b03:etc/firmware/tzlibasb.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzlibasb.mdt:etc/firmware/tzlibasb.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tznautilus.b00:etc/firmware/tznautilus.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tznautilus.b01:etc/firmware/tznautilus.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tznautilus.b02:etc/firmware/tznautilus.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tznautilus.b03:etc/firmware/tznautilus.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tznautilus.mdt:etc/firmware/tznautilus.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzsuntory.b00:etc/firmware/tzsuntory.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzsuntory.b01:etc/firmware/tzsuntory.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzsuntory.b02:etc/firmware/tzsuntory.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzsuntory.b03:etc/firmware/tzsuntory.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzsuntory.mdt:etc/firmware/tzsuntory.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.b00:etc/firmware/tzwidevine.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.b01:etc/firmware/tzwidevine.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.b02:etc/firmware/tzwidevine.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.b03:etc/firmware/tzwidevine.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/tzwidevine.mdt:etc/firmware/tzwidevine.mdt \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.b00:etc/firmware/venus.b00 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.b01:etc/firmware/venus.b01 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.b02:etc/firmware/venus.b02 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.b03:etc/firmware/venus.b03 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.b04:etc/firmware/venus.b04 \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.mbn:etc/firmware/venus.mbn \
+    vendor/sony/shinano-common/proprietary/etc/firmware/venus.mdt:etc/firmware/venus.mdt \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:vendor/firmware/keymaster/keymaster.b00 \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b01:vendor/firmware/keymaster/keymaster.b01 \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b02:vendor/firmware/keymaster/keymaster.b02 \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b03:vendor/firmware/keymaster/keymaster.b03 \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.mdt:vendor/firmware/keymaster/keymaster.mdt \
+    vendor/sony/shinano-common/proprietary/vendor/firmware/libpn547_fw.so:vendor/firmware/libpn547_fw.so \
 
-PRODUCT_PACKAGES += \
-	a330_pfp \
-	a330_pm4 \
-	cmnlib_b00 \
-	cmnlib_b01 \
-	cmnlib_b02 \
-	cmnlib_b03 \
-	cmnlib_mdt \
-	cpp_firmware_v1_2_0 \
-	tzhdcp_b00 \
-	tzhdcp_b01 \
-	tzhdcp_b02 \
-	tzhdcp_b03 \
-	tzhdcp_mdt \
-	tzlibasb_b00 \
-	tzlibasb_b01 \
-	tzlibasb_b02 \
-	tzlibasb_b03 \
-	tzlibasb_mdt \
-	tznautilus_b00 \
-	tznautilus_b01 \
-	tznautilus_b02 \
-	tznautilus_b03 \
-	tznautilus_mdt \
-	tzsuntory_b00 \
-	tzsuntory_b01 \
-	tzsuntory_b02 \
-	tzsuntory_b03 \
-	tzsuntory_mdt \
-	tzwidevine_b00 \
-	tzwidevine_b01 \
-	tzwidevine_b02 \
-	tzwidevine_b03 \
-	tzwidevine_mdt \
-	venus_b00 \
-	venus_b01 \
-	venus_b02 \
-	venus_b03 \
-	venus_b04 \
-	venus_mbn \
-	venus_mdt \
-	keymaster_b00 \
-	keymaster_b01 \
-	keymaster_b02 \
-	keymaster_b03 \
-	keymaster_mdt \
-	libpn547_fw

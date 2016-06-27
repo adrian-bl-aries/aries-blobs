@@ -1,31 +1,18 @@
-# Copyright (C) 2012 Sony Mobile Communication
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+PRODUCT_COPY_FILES += \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b00:etc/firmware/adsp.b00 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b01:etc/firmware/adsp.b01 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b02:etc/firmware/adsp.b02 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b03:etc/firmware/adsp.b03 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b04:etc/firmware/adsp.b04 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b05:etc/firmware/adsp.b05 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b06:etc/firmware/adsp.b06 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b07:etc/firmware/adsp.b07 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b08:etc/firmware/adsp.b08 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b09:etc/firmware/adsp.b09 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b10:etc/firmware/adsp.b10 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b11:etc/firmware/adsp.b11 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.b12:etc/firmware/adsp.b12 \
+    vendor/sony/shinano-aries/proprietary/etc/firmware/adsp.mdt:etc/firmware/adsp.mdt \
+    vendor/sony/shinano-aries/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:vendor/firmware/fw_bcmdhd_apsta.bin \
+    vendor/sony/shinano-aries/proprietary/vendor/firmware/fw_bcmdhd.bin:vendor/firmware/fw_bcmdhd.bin \
 
-PRODUCT_PACKAGES += \
-	adsp_b00 \
-	adsp_b01 \
-	adsp_b02 \
-	adsp_b03 \
-	adsp_b04 \
-	adsp_b05 \
-	adsp_b06 \
-	adsp_b07 \
-	adsp_b08 \
-	adsp_b09 \
-	adsp_b10 \
-	adsp_b11 \
-	adsp_b12 \
-	adsp_mdt \
-	fw_bcmdhd \
-	fw_bcmdhd_apsta
